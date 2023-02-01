@@ -1,5 +1,7 @@
 package state;
 
+import state.tools.Tool;
+
 public class Canvas {
     private Tool currentTool;
 

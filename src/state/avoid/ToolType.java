@@ -1,4 +1,4 @@
-package state;
+package state.avoid;
 
 public enum ToolType {
     SELECTION,

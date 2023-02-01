@@ -1,4 +1,4 @@
-package strategy;
+package strategy.avoid;
 
 public class BadImageStorage {
     private final String compressor;

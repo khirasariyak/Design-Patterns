@@ -1,6 +1,8 @@
-package state;
+package state.tools;
 
-public class SelectionTool implements Tool{
+import state.tools.Tool;
+
+public class SelectionTool implements Tool {
     @Override
     public void mouseDown() {
         System.out.println("Selection Tool Selected!");

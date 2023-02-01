@@ -1,4 +1,4 @@
-package state;
+package state.avoid;
 
 public class OldCanvas {
     private ToolType currentTool;
