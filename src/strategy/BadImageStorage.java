@@ -1,8 +1,8 @@
 package strategy;
 
 public class BadImageStorage {
-    private String compressor;
-    private String filter;
+    private final String compressor;
+    private final String filter;
 
     public BadImageStorage(String compressor, String filter) {
         this.compressor = compressor;
