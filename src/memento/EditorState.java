@@ -1,13 +1,16 @@
 package memento;
 
 public class EditorState {
-    private final String content;
 
-    public EditorState(String content) {
-        this.content = content;
-    }
+  // You can use record keyword which is offered in Java 14
 
-    public String getContent() {
-        return content;
-    }
+  private final String content;
+
+  public EditorState(String content) {
+    this.content = content;
+  }
+
+  public String getContent() {
+    return content;
+  }
 }
