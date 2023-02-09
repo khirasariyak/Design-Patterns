@@ -3,16 +3,15 @@ package memento;
 public class Main {
   public static void main(String[] args) {
     var editor = new Editor();
-    var history = new History();
 
     editor.setContent("a");
-    history.push(editor.createState());
+    editor.save();
 
     editor.setContent("ab");
-    history.push(editor.createState());
+    editor.save();
 
     editor.setContent("abc");
-    editor.restore(history.pop());
+    editor.undo();
 
     System.out.println(editor.getContent());   // ab
   }
